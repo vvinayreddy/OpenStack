@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script to add a user to Linux system
+# Add stack user in the system
 if [ $(id -u) -eq 0 ]; then
 	read -p "Enter username : " username
 	read -s -p "Enter password : " password
